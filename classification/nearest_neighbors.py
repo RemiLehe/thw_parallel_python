@@ -4,7 +4,7 @@ neighbor classification algorithm.
 """
 import numpy as np
 
-def nearest_neighbor_prediction( X_test, X_train, y_train, n_neighbors=5 ):
+def nearest_neighbor_prediction( X_test, X_train, y_train ):
     """
     Given a set of training examples X_train (with corresponding
     labels y_train), predict the labels that correspond to the test 
