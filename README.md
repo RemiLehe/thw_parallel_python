@@ -19,6 +19,7 @@ click the above badge.
 [Anaconda](https://www.continuum.io/downloads) and install the
 requirements by typing
 ```
+conda config --add channels conda-forge 
 conda env create -n parallel_python -f install/environment.yml
 source activate parallel_python
 ```
